@@ -1,0 +1,87 @@
+/****** reglas generales ******/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "trebuchet ms", arial, helvetica, sans-serif;
+    background-color: gray;
+    padding-top: 1em;
+}
+
+.contenedor {
+    width: 90%;
+    /* height: 90vh; */
+    margin: auto;
+    background-color: white;
+    padding: 1em;
+    
+}
+
+.elemento {
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    text-shadow: .15rem .15rem .1rem rgba(0,0,0,.75);
+}
+
+.item1 {
+    background-color: #99D1D1;
+}
+
+.item2 {
+    background-color: #4DAEAE;
+    font-size: 1.2em;
+}
+
+.item3 {
+    background-color: #008B8B;
+    font-size: 0.8em;
+}
+
+.item4 {
+    background-color: #006161;
+    font-size: 1.4em;
+}
+
+.item5 {
+    background-color: #003838;
+    font-size: 0.7em;
+}
+
+.item6 {
+    background-color: #000E0E;
+    font-size: 1.6em;
+}
+
+
+/****** reglas para flexbox ******
+
+
+/* caja contenedora */
+
+.contenedor {
+    /* caja contenedora flexible */
+    
+    /* "permiso" para que los elementos de la caja flexibles vayan a la siguinte línea, si no caben */
+    
+}
+
+
+/* elementos de la caja flexible */
+
+.elemento {
+    /* tamaño de los elementos con relación al eje principal (horizontal) 25% */
+
+    /* permitirles crecer para que "llenen" la caja contenedora */
+
+    /* los elementos también son "cajas flexibles"
+       para poder centrar su contenido */
+
+    /* centrado según el eje principal (horizontal) */
+
+    /* centrado según el eje secundario (vertical) */
+}

@@ -1,0 +1,129 @@
+/*  1º
+	definición del juego de caracteres */
+
+@charset "utf-8";
+
+/*  2º
+	disponibilidad de fuentes libres */
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i|Open+Sans:400,700');
+
+/*  3º
+	"reseteado de reglas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  4º
+    reglas de estilo generales 
+	y para dispositivos móviles,
+    de lo general a lo particular
+    y de arriba hacia abajo
+	según código HTML */
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em 0 .5em 0;
+}
+
+p {
+    margin-bottom: .5em;
+    
+    /* para restringir la cantidad de palabras por línea */
+    max-width: 35em;
+}
+
+img {
+    /*  para que una imagen
+        nunca sea mayor que
+        la caja que las contiene */
+    max-width: 100%;
+    height: auto;
+}
+
+header,
+footer {
+    background-color: darkcyan;
+    padding: .5em;
+}
+
+
+/* "módulo" de encabezado */
+
+#logo {
+    display: block;
+    width: 5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+    background-color: rgba(0,0,0,.75);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* "módulo" de información específica
+    de CADA documento */
+
+main {
+        padding: .5em;
+}
+
+
+/* "módulo" de información principal
+	específica de CADA documento */
+
+.galeria {
+    padding-bottom: 1em;
+}
+
+.galeria figure {
+    margin-bottom: .5em
+}
+
+.galeria figure figcaption {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: .25em;
+}
+
+/* "módulos" de tras informaciones */
+
+section {
+    padding-bottom: 1em;
+}
+
+section figure img {
+    border-radius: 50%;
+    box-shadow: .125em .25em .5em rgba(0,0,0,.35);
+}
+
+/*  5º
+------------------------------------------------
+ "mediaqueries" para diseño multipantalla:
+ reglas de estilo que SÓLO se aplican
+ si se cumplen las condiciones entre paréntesis
+ después de la instrucción "@media"
+ y se encuentran  "encerradas" entre las llaves
+------------------------------------------------
+*/
