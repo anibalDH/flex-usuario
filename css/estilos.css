@@ -156,4 +156,17 @@ main {
     background-color: hsl(246, 8%, 40%);
     color: white;
 }
+footer .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+footer img {
+    margin-right: 1em;
+}
+
+footer p {
+    text-align: right;
+    max-width: 35em;
+}
