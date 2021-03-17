@@ -163,15 +163,6 @@ footer .contenedor {
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
-footer .contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-=======
->>>>>>> flex-usuario/master
 footer img {
     margin-right: 1em;
 }
@@ -180,7 +171,3 @@ footer p {
     text-align: right;
     max-width: 35em;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> flex-usuario/master
